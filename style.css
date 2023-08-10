@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-bar{
+    position:fixed;
+    top:0px; left:0px; right:0px; 
+    height:70px; 
+   
+}
+.carousel-item{
+    height: max-content;
+}
+span{
+    
+    color: blue;
+    font-weight: 600;
+    padding: 0;
+}
+#banner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(232, 230, 229);
+    background-size: cover;
+    position: relative;
+    
+}
+footer{
+    background-color: rgb(232, 230, 229);
+}
+
+#icons{
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px solid rgb(161, 158, 157);
+    font-size: 25px;
+    transition: all ease 0.5s;
+    
+}
+#icons:hover{
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px solid blue;
+    font-size: 27px;
+}
+#footer-iletisim{
+    background-color: rgb(197, 194, 194);
+    border-radius: 2px;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+#footer-btn,#newsletter1,#icons,#content-img{
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#article-img{
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+#footer-end{
+    background-color: rgb(73, 71, 71);
+}
